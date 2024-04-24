@@ -2,13 +2,15 @@
   <div class="px-3 py-10 md:px-10">
     <div class="w-full sm:w-1/2 lg:w-1/3 mx-auto">
 
-      <Spinner />
+      <Spinner v-if="loading" />
 
-      <TodoForm />
+      <template v-else>
+        <TodoForm />
 
-      <TodoItens />
+        <TodoItens />
 
-      <TodoEmpty />
+        <TodoEmpty />
+      </template>
     </div>
   </div>
 </template>
@@ -22,23 +24,22 @@ import axios from 'axios'
 
 export default {
   name: 'App',
-  components: {
-    Spinner,
-    TodoForm,
-    TodoItens,
-    TodoEmpty,
-  },
+  components: { Spinner, TodoForm, TodoItens, TodoEmpty },
 
   data() {
     return {
-      todos: [],
+      loading: false
     }
   },
 
   created() {
+    this.loading = true
     axios.get('http://localhost:3000/todos')
       .then(response => {
-        this.todos = response.data
+        this.$store.commit('StoreTodos', response.data)
+      })
+      .finally(() => {
+        this.loading = false
       })
   },
 }
