@@ -15,3 +15,5 @@ Este projeto consiste em uma Todo List (Lista de Tarefas) construida com Vue e T
 - JavaScript
 - Axios
 - Json DB com Node.js
+
+<img width="634" alt="tdlist" src="https://github.com/victooriki/VueTodoList/assets/122548244/547efbce-a414-48ff-b438-464c033f236c">
