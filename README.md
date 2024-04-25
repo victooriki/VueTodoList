@@ -1,24 +1,17 @@
-# app
+# Todo List
+Este projeto consiste em uma Todo List (Lista de Tarefas) construida com Vue e Tailwind. Usando uma fake Api Node para banco de dados baseada em json.
 
-## Project setup
-```
-npm install
-```
+## Funcionalidades Principais
+- **Inserção de nova tarefa**.
+- **Atualização de tarefas**.
+- **Deleção de tarefas**.
+- **Json Database para simular uma fake api**.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tecnologias Utilizadas
+- Vue.js
+- Tailwind Css
+- Vuex
+- Vue Router
+- JavaScript
+- Axios
+- Json DB com Node.js
