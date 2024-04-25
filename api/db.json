@@ -1,19 +1,39 @@
 {
-    "todos": [
-      {
-        "id": 1,
-        "title": "Estudar javascript",
-        "completed": true
-      },
-      {
-        "id": 2,
-        "title": "Estudar Vue",
-        "completed": false
-      },
-      {
-        "id": 3,
-        "title": "Estudar composition API",
-        "completed": false
-      }
-    ]
-  }
+  "todos": [
+    {
+      "id": "1",
+      "title": "Estudar javascript",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Estudar Vue",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Estudar composition API",
+      "completed": false
+    },
+    {
+      "title": "Estudar Python",
+      "completed": true,
+      "id": "4"
+    },
+    {
+      "title": "Estudar Node",
+      "completed": false,
+      "id": "5"
+    },
+    {
+      "id": "cb2c",
+      "title": "Estudar BI",
+      "completed": false
+    },
+    {
+      "id": "451c",
+      "title": "Estudar CodeIgniter",
+      "completed": false
+    }
+  ]
+}
