@@ -1,9 +1,3 @@
 {
-  "todos": [
-    {
-      "title": "Estudar Banco de Dados",
-      "completed": true,
-      "id": "0544"
-    }
-  ]
+  "todos": []
 }
