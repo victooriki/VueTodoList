@@ -7,9 +7,9 @@
       <template v-else>
         <TodoForm />
 
-        <TodoItens />
+        <TodoItens v-if="this.$store.state.todos.length" />
 
-        <TodoEmpty />
+        <TodoEmpty v-else />
       </template>
     </div>
   </div>

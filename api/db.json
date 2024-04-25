@@ -1,29 +1,9 @@
 {
   "todos": [
     {
-      "id": "1",
-      "title": "Estudar javascript",
-      "completed": true
-    },
-    {
-      "id": "2",
-      "title": "Estudar Vue",
-      "completed": false
-    },
-    {
-      "title": "Estudar Python",
+      "title": "Estudar Banco de Dados",
       "completed": true,
-      "id": "4"
-    },
-    {
-      "title": "Estudar Node",
-      "completed": false,
-      "id": "5"
-    },
-    {
-      "id": "451c",
-      "title": "Estudar CodeIgniter",
-      "completed": false
+      "id": "0544"
     }
   ]
 }
